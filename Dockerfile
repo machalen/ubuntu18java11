@@ -17,6 +17,11 @@
 # limitations under the License.
 #
 
+#IMPORTANT!
+#This Dockerfile is based on the work below referenced:
+#https://github.com/AdoptOpenJDK/openjdk-docker/blob/master/11/jdk/ubuntu/Dockerfile.hotspot.releases.full
+#It is almost identical I only needed to remove the last line, otherwise I recommend you to use the original
+
 FROM ubuntu:18.04
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
